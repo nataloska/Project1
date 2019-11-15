@@ -25,12 +25,30 @@
     background-color: #4a4a4a;
     color:white;
 }
+.dropdown-active{
+    background-color: #4a4a4a;
+    color:white;
+    float:left;
+    overflow:hidden;
+    min-width:130px
+}
 .dropdown{
     float:left;
     overflow:hidden;
     min-width:130px
 }
 .dropdown .ddbtn{
+    font-size:16px;
+    border:none;
+    outline:none;
+    color:white;
+    text-align:center;
+    padding:14px 16px;
+    background-color:inherit;
+    font-family:inherit;
+    min-width:130px;
+}
+.dropdown-active .ddbtn{
     font-size:16px;
     border:none;
     outline:none;
@@ -63,27 +81,43 @@
 .dropdown:hover .ddlist{
     display:block;
 }
+.dropdown-active:hover .ddlist{
+    display:block;
+}
 .contact{
     display:block;
     margin:0 auto;
-    width: 90vw;
-    text-align: center;
+    width: 30vw;
+    
 }
 .cform{
     margin: 0 auto;
     width:80%;
-    background:#efefef;
+    background-color:#efefef;
     border: 1x solid black;
-    padding: 15px;
+    padding:15px;
     margin-top: 3px;
     font-size:0rem 14px;
     color:#4a4a4a;
+    box-sizing:border-box;
 
 }
-.label{
+.clabel{
     display: block;
     margin-top: 20px;
-    letter-spacing:2px;
+}
+.cinput{
+    width: 300px;
+}
+
+.ctextarea{
+    resize: none;
+    width: 300px;
+    height: 100px;
+}
+.csubmit{
+    display:block;
+    width:300px;
 }
 
 .footer{
