@@ -1,0 +1,97 @@
+.menu {
+    background-color: #333333;
+    overflow:hidden;
+}
+
+.menu a{
+    float:left;
+    color: #f3f3f3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    min-width: 100px;
+
+}
+.menu a:hover{
+    background-color: #4a4a4a;
+    color: white;
+}
+.dropdown:hover .ddbtn{
+    background-color: #4a4a4a;
+    color: white;
+}
+.menu a.active{
+    background-color: #4a4a4a;
+    color:white;
+}
+.dropdown{
+    float:left;
+    overflow:hidden;
+    min-width:130px
+}
+.dropdown .ddbtn{
+    font-size:16px;
+    border:none;
+    outline:none;
+    color:white;
+    text-align:center;
+    padding:14px 16px;
+    background-color:inherit;
+    font-family:inherit;
+    min-width:130px;
+}
+.ddlist{
+    display:none;
+    position:absolute;
+    background-color:inherit;
+    min-width:100px;
+    box-shadow: 0px, 8px, 16px, 0px rgba (0,0,0,0,2);
+    z-index:1;
+}
+.ddlist a{
+    float:none;
+    color:inherit;
+    padding:14px 16px;
+    text-decoration:none;
+    display:block;
+    text-align:left;
+}
+.ddlist a:hover{
+    background-color: #DDDDDD;
+}
+.dropdown:hover .ddlist{
+    display:block;
+}
+.contact{
+    display:block;
+    margin:0 auto;
+    width: 90vw;
+    text-align: center;
+}
+.cform{
+    margin: 0 auto;
+    width:80%;
+    background:#efefef;
+    border: 1x solid black;
+    padding: 15px;
+    margin-top: 3px;
+    font-size:0rem 14px;
+    color:#4a4a4a;
+
+}
+.label{
+    display: block;
+    margin-top: 20px;
+    letter-spacing:2px;
+}
+
+.footer{
+    position:fixed;
+    left:0;
+    bottom:0;
+    background-color: #333333;
+    color:white;
+    text-align:center;
+    width:100%;
+}
