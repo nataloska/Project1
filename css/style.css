@@ -1,32 +1,32 @@
 .menu {
-    background-color: #333333;
+    background-color: #2516f5de;
     overflow:hidden;
 }
 
 .menu a{
     float:left;
-    color: #f3f3f3;
+    color: #030806e0;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 16px;
+    padding: 15px 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
     min-width: 100px;
 
 }
 .menu a:hover{
-    background-color: #4a4a4a;
-    color: white;
+    background-color: #f6fa14f6;
+    color: rgba(15, 75, 155, 0.815);
 }
 .dropdown:hover .ddbtn{
-    background-color: #4a4a4a;
-    color: white;
+    background-color: #f52314ef;
+    color: rgb(20, 1, 1);
 }
 .menu a.active{
-    background-color: #4a4a4a;
-    color:white;
+    background-color: #f80ad0f1;
+    color:rgba(252, 4, 4, 0.979));
 }
 .dropdown-active{
-    background-color: #4a4a4a;
+    background-color: #ff0707;
     color:white;
     float:left;
     overflow:hidden;
@@ -76,7 +76,7 @@
     text-align:left;
 }
 .ddlist a:hover{
-    background-color: #DDDDDD;
+    background-color: rgba(241, 23, 52, 0.925);
 }
 .dropdown:hover .ddlist{
     display:block;
@@ -98,7 +98,7 @@
     padding:15px;
     margin-top: 3px;
     font-size:0rem 14px;
-    color:#4a4a4a;
+    color:rgba(252, 30, 222, 0.959);
     box-sizing:border-box;
 
 }
@@ -129,3 +129,47 @@
     text-align:center;
     width:100%;
 }
+.card {
+    float: left;
+    width: 20%;
+    margin-left:10% ;
+}
+img {
+    width: 100%;
+}
+h1{
+    text-align: center ;
+    text-decoration-color: #141307de;
+    text-decoration-style: rgba(250, 101, 200, 0.89);
+
+}
+
+.class.card {
+    float: left;
+    width: 20%;
+    margin-left:10% ;
+}
+img {
+    width: 100%;
+}
+h1{
+    text-align: center ;
+    text-decoration-color: #141307de;
+    text-decoration-style: #a50808e7;
+
+}
+.class.card {
+    float: left;
+    width: 20%;
+    margin-left:10% ;
+}
+img {
+    width: 100%;
+}
+h1{
+    text-align: center ;
+    text-decoration-color: #141307de;
+    text-decoration-style: #a50808e7;
+}
+
+
