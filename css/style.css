@@ -23,19 +23,19 @@
 }
 .menu a.active{
     background-color: #f80ad0f1;
-    color:rgba(252, 4, 4, 0.979));
+    color:rgba(252, 4, 4, 0.979);
 }
 .dropdown-active{
     background-color: #ff0707;
     color:white;
     float:left;
     overflow:hidden;
-    min-width:130px
+    min-width:130px;
 }
 .dropdown{
     float:left;
     overflow:hidden;
-    min-width:130px
+    min-width:130px;
 }
 .dropdown .ddbtn{
     font-size:16px;
@@ -63,7 +63,7 @@
     display:none;
     position:absolute;
     background-color:inherit;
-    min-width:100px;
+    min-width:130px;
     box-shadow: 0px, 8px, 16px, 0px rgba (0,0,0,0,2);
     z-index:1;
 }
