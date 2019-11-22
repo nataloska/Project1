@@ -10,7 +10,8 @@
     padding: 15px 16px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    min-width: 100px;
+    min-width: 130px;
+    text-decoration:none;
 
 }
 .menu a:hover{
@@ -19,7 +20,6 @@
 }
 .dropdown:hover .ddbtn{
     background-color: #f52314ef;
-    color: rgb(20, 1, 1);
 }
 .menu a.active{
     background-color: #f80ad0f1;
@@ -30,18 +30,18 @@
     color:white;
     float:left;
     overflow:hidden;
-    min-width:130px;
+    width:130px;
 }
 .dropdown{
     float:left;
     overflow:hidden;
-    min-width:130px;
+    width:130px;
+    color:white;
 }
 .dropdown .ddbtn{
-    font-size:16px;
+    font-size:20px;
     border:none;
     outline:none;
-    color:white;
     text-align:center;
     padding:14px 16px;
     background-color:inherit;
@@ -49,15 +49,14 @@
     min-width:130px;
 }
 .dropdown-active .ddbtn{
-    font-size:16px;
+    font-size:20px;
     border:none;
     outline:none;
-    color:white;
     text-align:center;
     padding:14px 16px;
     background-color:inherit;
     font-family:inherit;
-    min-width:130px;
+    width:130px;
 }
 .ddlist{
     display:none;
@@ -80,9 +79,23 @@
 }
 .dropdown:hover .ddlist{
     display:block;
+    background-color: rgba(241, 23, 52, 0.925);
 }
 .dropdown-active:hover .ddlist{
     display:block;
+}
+.carddj{
+    text-align:center;
+    float:left;
+    left:50px;
+    width: 50vw;
+    height:40vw;
+}
+.djinfo{
+    width: 30vw;
+    float:left;
+    padding:10px;
+    margin:10px;
 }
 .contact{
     display:block;
@@ -128,6 +141,14 @@
     color:white;
     text-align:center;
     width:100%;
+}
+.container{
+
+}
+.container .p{
+    Width:70vw;
+    font-family:Arial, 'Times New Roman';
+    top:20vw;
 }
 .card {
     float: left;
